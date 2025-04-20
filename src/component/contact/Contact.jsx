@@ -1,9 +1,5 @@
 import React from "react";
 
-
-import linkedin from "../../utils/contactlogo/linkedin.png";
-import github from "../../utils/contactlogo/github.png";
-import email from "../../utils/contactlogo/email.png";
 import styles from "./Contact.module.css";
 import { FaLinkedin } from "react-icons/fa6";
 import { SiGithub } from "react-icons/si";
@@ -11,7 +7,8 @@ import { LuMail } from "react-icons/lu";
 
 export const Contact = () => {
   return (
-    <footer id="contact" className={styles.container}>
+    <section id="Contact">
+    <footer  className={styles.container}>
       <div className={styles.text}>
         <h2>Contact</h2>
         <p>Feel free to reach out!</p>
@@ -31,5 +28,6 @@ export const Contact = () => {
         </li>
       </ul>
     </footer>
+    </section>
   );
 };
