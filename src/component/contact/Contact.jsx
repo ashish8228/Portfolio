@@ -16,7 +16,7 @@ export const Contact = () => {
       <ul className={styles.links}>
         <li className={styles.link}>
           <LuMail size={"30px"} />
-          <a href="mailto:kumarmaliashish0@gmail.com">mymail@email.com</a>
+          <a href="mailto:kumarmaliashish0@gmail.com">kumarmaliashish@gmail.com</a>
         </li>
         <li className={styles.link}>
         <FaLinkedin  size={"30px"} /> 
